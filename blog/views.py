@@ -9,7 +9,6 @@ class BlogPageView(ListView):
     paginate_by = 2
 
 
-
 class BlogDetailView(DetailView):
     model = Post
     template_name = "post.html"
